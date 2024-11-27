@@ -11,6 +11,10 @@ This project is a weather application that allows users to search for the curren
 ## Preview
 
 
+https://github.com/user-attachments/assets/be06e4c5-ccc0-4201-ae38-f4dd96726862
+
+
+
 
 ## Features
 
