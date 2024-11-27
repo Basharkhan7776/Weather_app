@@ -25,8 +25,11 @@ body {
     -webkit-backdrop-filter: blur(40px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 600px;
-    color: #fff;
-    margin: 100px auto;
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -50,6 +53,7 @@ body {
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    text-align: center;
 }
 
 .search button {
@@ -59,11 +63,13 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    aspect-ratio: 1;
     cursor: pointer;
 }
 
 .search button img {
     width: 16px;
+    margin-top: 5px;
 }
 
 .weather-icon {
@@ -98,7 +104,7 @@ body {
 
 .col img {
     width: 40px;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .humidity,
@@ -139,6 +145,7 @@ body {
     }
     .col img {
         width: 30px;
+        margin-right: 20px;
     }
     .humidity,
     .wind {
@@ -154,7 +161,7 @@ body {
     .search input {
         padding: 10px 10px;
         height: 40px;
-        font-size: 14px;
+        font-size: 10px;
     }
     .search button {
         width: 40px;
@@ -176,6 +183,10 @@ body {
     }
     .col img {
         width: 20px;
+        margin-right: 10px;
+    }
+    .col p{
+        font-size: 10px;
     }
     .humidity,
     .wind {

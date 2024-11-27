@@ -14,7 +14,7 @@ const backgroundClips = [
     "videos/snow.mp4"
 ];
 
-function randomClip(){
+function randomClip() {
     return backgroundClips[Math.floor(Math.random() * backgroundClips.length)];
 }
 
